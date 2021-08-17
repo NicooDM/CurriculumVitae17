@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap");
+
+* {
+  font-family: "STIX Two Text", serif;
+}
+/*background color en main*/
+.bgMain {
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+/*Imagen en navbar*/
+.img-nav{
+    width: 15%;
+}
+  /*Boton de whatssap*/
+  .btnwhatssap {
+    width: 100px;
+    height: 100px;
+    
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+  }
+  /*Animacion de fotos portfolio*/
+ .animacion:hover{
+    position: relative;
+    bottom: 25px;
+    cursor: pointer;
+    filter: grayscale(28%) brightness(124%);
+    -webkit-filter: grayscale(28%) brightness(124%);
+    -moz-filter: grayscale(28%) brightness(124%);
+    transition: 500ms;
+ }
+ /*Scrool Nav*/
+ nav{
+     position: fixed;
+     top:0px;
+     width: 100%;
+ }
+ 
+  nav, scroll-container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+ 
+  scroll-container {
+    display: block;
+    width: 350px;
+    height: 200px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+  scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 5em;
+  }
